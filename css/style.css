@@ -1,0 +1,33 @@
+html {
+	font-family: Helvetica;
+	text-align: center-left;
+	width: 800px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #F2A8AE;
+  text-align: center;
+  padding: 50px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.main {
+  padding: 20px;
+  margin-top: 30px;
+  height: 1500px; 
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
