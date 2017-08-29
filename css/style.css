@@ -17,7 +17,7 @@ img{
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #c2a2ca;
   position:fixed;
   top: 0;
   width: 100%;
@@ -35,12 +35,12 @@ img{
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #811a9a;
+  color: white;
 }
 
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #811a9a;
     color: white;
 }
 * {box-sizing:border-box}
