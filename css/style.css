@@ -242,11 +242,6 @@ img{
   clear: both;
 }
 
-.column {
-  float: left;
-  width: 25%;
-}
-
 /* The Modal (background) */
 .modal {
   display: none;
