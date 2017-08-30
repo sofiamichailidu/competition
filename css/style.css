@@ -3,7 +3,9 @@ html {
 	text-align: center-left;
 	width: 800px;
 }
-
+body{
+	margin: 0;
+}
 .main {
   padding: 20px;
   margin-top: 30px;
