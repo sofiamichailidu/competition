@@ -21,6 +21,48 @@
 		  <a href="contact.html">Contact</a>
 		
 		</div>
+		
+		<div class="container" style="margin-top: 70px;">
+  <form action="/action_page.php">
+
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+    <label for="lname">E-mail</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your e-mail...">
+
+    <label for="country">Ticket type</label>
+    <select id="country" name="country">
+      <option value="australia">5-day ticket</option>
+      <option value="canada">VIP 5-day ticket</option>
+      <option value="usa">1-day ticket 20th Sept</option>
+      <option value="usa">1-day ticket 21th Sept</option>
+      <option value="usa">1-day ticket 22th Sept</option>
+      <option value="usa">1-day ticket 23th Sept</option>
+      <option value="usa">1-day ticket 24th Sept</option>
+      <option value="usa">1-day ticket 25th Sept</option>
+      <option value="usa">Camping ticket</option>
+	  </select>
+
+	  <label for="country">Number of tickets</label>
+    <select id="country" name="country">
+      <option value="australia">1</option>
+      <option value="canada">2</option>
+      <option value="usa">3</option>
+      <option value="usa">4</option>
+      <option value="usa">5</option>
+      <option value="usa">6</option>
+      <option value="usa">7</option>
+      <option value="usa">8</option>
+	  </select>
+
+    <label for="subject">Billing address</label>
+    <textarea id="subject" name="subject" placeholder="Your address..." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
 		<script src="js/jquery-3.2.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script type='text/javascript' language='javascript' src='js/java.js'></script>	
