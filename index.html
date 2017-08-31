@@ -29,16 +29,51 @@
 		<a href="https://www.ticketportal.cz/Event/VODAFONE_YOU_FEST-135535"><button>Buy Tickets</button></a>
 	</div>
 	</div>
-		<div class="blok1">
-			<div class="intro blok2">
-				<h2>Biggest music festival in Czech Republic</h2>
-				<p>Come and join us for 5 day festival filled with best artists in music industry.
-				You will see over 20 singers, music bands and DJs comuing from 7 different countries.
-				You can also visit Prague throughout the day, with Vodafest organised tour and attraction visits.
-				Since we are building a Digital Czech, our visitors will have the opportunity to try out the newest
-				digital technology, ranging from VR to Robots. We are looking forward to see you soon!</p>
-			</div>	
-		</div>
+	<div class="blok1">
+		<div class="intro blok2">
+			<h2>Biggest music festival in Czech Republic</h2>
+			<p>Come and join us for 5 day festival filled with best artists in music industry.
+			You will see over 20 singers, music bands and DJs comuing from 7 different countries.
+			You can also visit Prague throughout the day, with Vodafest organised tour and attraction visits.
+			Since we are building a Digital Czech, our visitors will have the opportunity to try out the newest
+			digital technology, ranging from VR to Robots. We are looking forward to see you soon!</p>
+		</div>	
+	</div>
+
+	<div class="timer">
+		<p id="demo"></p>
+		<script>
+			// Set the date we're counting down to
+			var countDownDate = new Date("Sept 20, 2017 12:00:00").getTime();
+
+			// Update the count down every 1 second
+			var x = setInterval(function() {
+
+			// Get todays date and time
+			var now = new Date().getTime();
+			
+			// Find the distance between now an the count down date
+			var distance = countDownDate - now;
+			
+			// Time calculations for days, hours, minutes and seconds
+			var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+			
+			// Output the result in an element with id="demo"
+			document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+			+ minutes + "m " + seconds + "s ";
+			
+			// If the count down is over, write some text 
+			if (distance < 0) {
+				clearInterval(x);
+				document.getElementById("demo").innerHTML = "EXPIRED";
+			}
+		}, 1000);
+		</script>	
+	</div>
+	
 		<script src="js/jquery-3.2.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script type='text/javascript' language='javascript' src='js/java.js'></script>	

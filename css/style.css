@@ -347,5 +347,9 @@ img.hover-shadow {
 	height:100px;
 	position:relative;
 	margin:0 auto;
+}
 
+.timer{
+	text-align: center;
+	font-size: 80px
 }
