@@ -21,7 +21,7 @@ body{
   position: relative;
   width: 83%;
   left: 8.5%;
-  margin-top: 73px;
+  margin-top: 70px;
 }
 
 .hero-text {
@@ -59,7 +59,7 @@ img{
   position:fixed;
   top: 0;
   width: 100%;
-
+  z-index:9999;
 }
 
 .topnav a {
@@ -330,4 +330,22 @@ img.hover-shadow {
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.uvodnitext{
+	padding: 0 16px;
+	margin-right: auto;
+	
+}
+.blok1 {
+	width:100%;
+	height:250px
+	position: relative;
+
+}
+.blok2{
+	width:1380px;
+	height:100px;
+	position:relative;
+	margin:0 auto;
+
 }
